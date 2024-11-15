@@ -4143,3 +4143,67 @@ input, select, textarea {
 		}
 
 	}
+
+	.portfolio-item {
+		position: relative;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	.image-container {
+		position: relative;
+		overflow: hidden;
+	}
+	
+	/* Contenedor de la imagen y efecto de hover */
+/* Contenedor de la imagen y efecto de hover */
+	.image-container {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.image-preview {
+		width: 100%;
+		height: auto;
+		transition: transform 0.3s ease;
+	}
+
+	.image-container:hover .image-preview {
+		transform: scale(1.05);
+	}
+
+	/* Botón de descarga */
+	.button.overlay {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgba(0, 0, 0, 0.5);
+		color: #ffffff !important; /* Forzamos el texto blanco */
+		padding: 10px 20px;
+		text-decoration: none;
+		border-radius: 5px;
+		font-weight: bold;
+		opacity: 0;
+		transition: opacity 0.3s ease, background-color 0.3s ease;
+	}
+
+	/* Efecto de hover para el contenedor */
+	.image-container:hover .button.overlay {
+		opacity: 1;
+		background-color: #007bff; /* Azul del botón primario */
+		color: #ffffff !important; /* Aseguramos que el texto siga siendo blanco */
+	}
+
+	/* Efecto de hover para el botón */
+	.button.overlay:hover {
+		background-color: #0056b3; /* Azul más oscuro */
+		color: #ffffff !important; /* Texto blanco asegurado */
+	}
+
+	.centered-row {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
