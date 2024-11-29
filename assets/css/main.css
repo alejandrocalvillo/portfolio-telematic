@@ -2255,7 +2255,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 5 Brands'; 	
 		}
 
 	.icon {
@@ -2578,7 +2578,6 @@ input, select, textarea {
 
 		}
 
-/* Icons */
 
 	ul.icons {
 		cursor: default;
@@ -2605,6 +2604,7 @@ input, select, textarea {
 
 			ul.icons.major li .icon:before {
 				font-size: 2.75rem;
+
 			}
 
 		@media screen and (max-width: 736px) {
